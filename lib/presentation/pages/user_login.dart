@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'onboarding_page.dart';
+import 'main_page.dart'; // ✅ Navigate here instead of onboarding
 
 class UserLogin extends StatefulWidget {
   const UserLogin({super.key});
@@ -16,7 +16,7 @@ class _UserLoginState extends State<UserLogin> {
   final textAddress = TextEditingController();
   final textPhone = TextEditingController();
   final textEmail = TextEditingController();
-  final textPassword = TextEditingController(); // ✅ New password field
+  final textPassword = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +39,7 @@ class _UserLoginState extends State<UserLogin> {
                   keyboard: TextInputType.phone),
               buildInput(textEmail, 'Email',
                   keyboard: TextInputType.emailAddress),
-              buildPasswordInput(textPassword), // ✅ Password field
+              buildPasswordInput(textPassword),
               Padding(
                 padding: const EdgeInsets.fromLTRB(200.0, 30.0, 0.0, 10.0),
                 child: ElevatedButton(
@@ -52,11 +52,9 @@ class _UserLoginState extends State<UserLogin> {
                           password: textPassword.text.trim(),
                         );
 
-                        // ✅ Navigate to onboarding after successful registration
                         Navigator.pushReplacement(
                           context,
-                          MaterialPageRoute(
-                              builder: (context) => const OnBoardingPage()),
+                          MaterialPageRoute(builder: (context) => const MainPage()),
                         );
                       } on FirebaseAuthException catch (e) {
                         ScaffoldMessenger.of(context).showSnackBar(
