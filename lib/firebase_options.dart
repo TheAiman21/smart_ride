@@ -50,11 +50,11 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_OWN_KEY',
-    appId: '1:961519639955:android:eeef99891c5b9ed27f1c66',
-    messagingSenderId: '961519639955',
-    projectId: 'rentapp-fg-x',
-    storageBucket: 'rentapp-fg-x.appspot.com',
+    apiKey: 'AIzaSyCkrf476asOyjLDV2p-Ixdi0Jfzm7KOkjg',
+    appId: '1:763339961427:android:ce988e946e6ff9f13ec2a6',
+    messagingSenderId: '763339961427',
+    projectId: 'smart-ride-eafb8',
+    storageBucket: 'smart-ride-eafb8.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(

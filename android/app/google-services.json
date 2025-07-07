@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "961519639955",
-    "project_id": "rentapp-fg-x",
-    "storage_bucket": "rentapp-fg-x.appspot.com"
+    "project_number": "763339961427",
+    "project_id": "smart-ride-eafb8",
+    "storage_bucket": "smart-ride-eafb8.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:961519639955:android:eeef99891c5b9ed27f1c66",
+        "mobilesdk_app_id": "1:763339961427:android:ce988e946e6ff9f13ec2a6",
         "android_client_info": {
           "package_name": "com.example.rentapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "YOUR_OWN_KEY"
+          "current_key": "AIzaSyCkrf476asOyjLDV2p-Ixdi0Jfzm7KOkjg"
         }
       ],
       "services": {
