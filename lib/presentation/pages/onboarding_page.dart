@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-class OnboardingPage extends StatefulWidget {
-  const OnboardingPage({Key? key}) : super(key: key);
+class OnBoardingPage extends StatefulWidget {
+  const OnBoardingPage({Key? key}) : super(key: key);
 
   @override
-  State<OnboardingPage> createState() => _OnboardingPageState();
+  State<OnBoardingPage> createState() => _OnBoardingPageState();
 }
 
-class _OnboardingPageState extends State<OnboardingPage> {
+class _OnBoardingPageState extends State<OnBoardingPage> {
   DateTimeRange? selectedDateRange;
   TimeOfDay? startTime;
   TimeOfDay? endTime;

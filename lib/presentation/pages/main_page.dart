@@ -15,7 +15,7 @@ class _MainPageState extends State<MainPage> {
   int _currentIndex = 0;
 
   final pages = const [
-    OnboardingPage(),
+    OnBoardingPage(),
     CarListScreen(),
     PromosPage(),
     MenuPage(),

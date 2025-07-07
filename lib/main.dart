@@ -5,7 +5,7 @@ import 'package:rentapp/firebase_options.dart';
 import 'package:rentapp/injection_container.dart';
 import 'package:rentapp/presentation/bloc/car_bloc.dart';
 import 'package:rentapp/presentation/bloc/car_event.dart';
-import 'package:rentapp/presentation/pages/main_page.dart';
+import 'package:rentapp/presentation/pages/user_login.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const MainPage(),
+        home: const UserLogin(),
       ),
     );
   }
